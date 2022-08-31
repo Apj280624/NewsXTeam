@@ -35,6 +35,7 @@ function DMenu(props) {
             ? "dropdown-menu dropdown-menu-right"
             : "dropdown-menu"
         }
+        style={props.type === 1 ? { color: "green" } : null}
       >
         {data.items.map((item, index) => {
           return (

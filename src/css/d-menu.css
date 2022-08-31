@@ -5,6 +5,11 @@
   border-radius: 50px;
   margin-left: 15px;
 }
+
+.dropdown-right {
+  margin-left: 15px;
+}
+
 .dropdown-item {
 }
 
@@ -67,6 +72,10 @@ https://stackoverflow.com/questions/31237366/bootstrap-class-dropdown-menu-dropd
     margin-left: 10px;
   }
 
+  .dropdown-right {
+    margin-left: 10px;
+  }
+
   .dropdown-btn {
     color: white;
     outline: none !important;
@@ -81,6 +90,10 @@ https://stackoverflow.com/questions/31237366/bootstrap-class-dropdown-menu-dropd
     height: 30px;
     border-radius: 50px;
     margin: 0;
+    margin-left: 5px;
+  }
+
+  .dropdown-right {
     margin-left: 10px;
   }
 

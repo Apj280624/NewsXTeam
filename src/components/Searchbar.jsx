@@ -5,6 +5,7 @@ import { faXmark, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 // my modules
 import "../css/searchbar.css";
 import PreferencesContext from "../utilities/PreferencesContext.js";
+import { exists } from "../utilities/UtilityFunctions.js";
 
 function SearchBar(props) {
   const [keyword, setKeyword] = useState("");
@@ -16,15 +17,19 @@ function SearchBar(props) {
   }
 
   function handleClearClick() {
+    if (!exists(keyword)) {
+      return;
+    }
+
     setKeyword("");
     getNews(categoryDetails.key, countryDetails.key);
   }
 
   function handleSearchClick() {
-    if (!keyword || keyword === "") {
-      // handle this
+    if (!exists(keyword)) {
       return;
     }
+
     searchNews(keyword);
   }
 

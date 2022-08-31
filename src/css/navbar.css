@@ -1,10 +1,11 @@
 .container-fluid {
   padding: 0; /* removing the default padding  */
-  /* border: 2px solid yellow; */
-  width: fit-content;
+  border: 2px solid yellow;
+  width: 120px;
+  /* width: 5px; */
   margin-left: 0;
   /* padding: 10px; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .navbar-custom {
@@ -13,11 +14,8 @@
   text-align: right;
 }
 
-.custom-brand {
-}
-
 .brand-name {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   font-family: "Montserrat";
   font-size: 2.4rem;
   font-weight: 550;
@@ -45,7 +43,7 @@
 @media (max-width: 890px) {
   .brand-name {
     font-family: "Montserrat";
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 550;
     line-height: 2rem;
     margin-top: 15px;

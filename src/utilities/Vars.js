@@ -1,4 +1,5 @@
-const SERVER_ORIGIN = "http://localhost:4000";
+// const SERVER_ORIGIN = "http://localhost:4000";
+const SERVER_ORIGIN = "https://newsx-heroku-server.herokuapp.com";
 
 const vars = {
   brandName: "NewsX",

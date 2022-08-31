@@ -1,0 +1,60 @@
+.footer {
+  height: 240px;
+  width: 100%;
+  /* background-color: var(--dark); */
+  /* text-align: center; */
+  margin: 100px 0 0 0;
+  padding: 80px;
+  margin-bottom: 0;
+}
+
+/* if I name it common-text text-align: center doesnot work  */
+.common {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.bname-text {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.copyright-text {
+  color: grey;
+  font-size: 1rem;
+}
+
+/********************************************* mob and tab *****************************************************/
+
+@media (max-width: 990px) and (min-width: 500px) {
+  .footer {
+    height: 200px;
+    margin-top: 200px;
+  }
+
+  .bname-text {
+    font-size: 1.6rem;
+  }
+
+  .copyright-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    height: 160px;
+    padding: 50px;
+    margin-top: 300px;
+  }
+
+  .bname-text {
+    font-size: 1.2rem;
+  }
+
+  .copyright-text {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,94 @@
+.dropdown {
+  /* background-color: transparent; */
+  background-color: var(--dark);
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+.dropdown-item {
+}
+
+/* 
+google search: drop-menu-right not working
+https://stackoverflow.com/questions/31237366/bootstrap-class-dropdown-menu-dropdown-menu-right-is-not-working-on-self-defined */
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-menu {
+  background-color: black;
+  font-family: "Montserrat";
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+/* max-height:300px;
+   overflow-y: scroll; to make dropdown scrollable 
+   google search: bootstrap drop down menu not scrolling
+   stack overflow link: https://stackoverflow.com/questions/31525385/bootstrap-navbar-dropdown-not-scrolling  
+*/
+
+.dropdown-btn {
+  color: white;
+  outline: none !important;
+  border: none;
+  font-family: "Montserrat";
+}
+
+.dropdown-btn:hover {
+  color: white;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.dropdown-btn:active {
+  color: white;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.dropdown-btn:focus {
+  color: white;
+  border: none;
+  outline: none !important;
+  box-shadow: none;
+}
+
+/************************************************* mob and tab *************************************************/
+@media (max-width: 850px) and (min-width: 600px) {
+  .dropdown {
+    margin-left: 0;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .dropdown-btn {
+    color: white;
+    outline: none !important;
+    border: none;
+    font-family: "Montserrat";
+  }
+}
+
+@media (max-width: 600px) {
+  .dropdown {
+    margin-left: 0;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .dropdown-btn {
+    color: white;
+    outline: none !important;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 0.8rem;
+  }
+}

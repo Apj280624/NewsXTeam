@@ -1,0 +1,55 @@
+.container-fluid {
+  padding: 0; /* removing the default padding  */
+  /* border: 2px solid yellow; */
+  width: fit-content;
+  margin-left: 0;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.navbar-custom {
+  /* border: 1px solid red; */
+  padding: 0 5% 0 5%;
+  text-align: right;
+}
+
+.custom-brand {
+}
+
+.brand-name {
+  /* border: 2px solid green; */
+  font-family: "Montserrat";
+  font-size: 2.4rem;
+  font-weight: 550;
+  line-height: 2rem;
+  /* line-height: 2.8rem; */
+  margin-top: 15px;
+}
+
+.alignment {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dmenu-div {
+  /* border: 2px solid red; */
+  margin-left: 0;
+}
+
+/* box-shadow: none !important; to remove the click effect */
+
+/* mobile and tab ***************************************************************************************** */
+
+@media (max-width: 890px) {
+  .brand-name {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 550;
+    line-height: 2rem;
+    margin-top: 15px;
+    margin-right: 0;
+    /* border: 1px solid red; */
+  }
+}

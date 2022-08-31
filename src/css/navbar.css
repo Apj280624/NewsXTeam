@@ -1,6 +1,6 @@
 .container-fluid {
   padding: 0; /* removing the default padding  */
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 120px;
   /* width: 5px; */
   margin-left: 0;
@@ -15,7 +15,7 @@
 }
 
 .brand-name {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   font-family: "Montserrat";
   font-size: 2.4rem;
   font-weight: 550;

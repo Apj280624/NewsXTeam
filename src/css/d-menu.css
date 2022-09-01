@@ -63,6 +63,7 @@ https://stackoverflow.com/questions/31237366/bootstrap-class-dropdown-menu-dropd
   box-shadow: none;
 }
 
+
 /************************************************* mob and tab *************************************************/
 @media (max-width: 850px) and (min-width: 600px) {
   .dropdown {
